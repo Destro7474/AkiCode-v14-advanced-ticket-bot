@@ -6,7 +6,7 @@ module.exports = {
     execute(client) {
         console.log(`${client.user.tag} olarak giriş yapıldı!`);
         client.user.setPresence({
-            activities: [{ name: 'AkiCode & ParsherCode', type: ActivityType.Streaming, url: 'https://www.twitch.tv/akicode' }],
+            activities: [{ name: 'EasyBoxTR', type: ActivityType.Playing, url: 'EasyBoxTR' }],
             status: 'online',
         });
     },
